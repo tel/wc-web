@@ -11,7 +11,7 @@
   },
 
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "site:dev": "vuepress dev site",
+    "site:build": "vuepress build site"
   }
 }
