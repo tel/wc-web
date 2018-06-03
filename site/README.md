@@ -11,9 +11,9 @@ meta:
 
 features:
 - title: Functional programming
-  details: Cutting-edge software design build atop a century of research in logic, language, and types.
+  details: Cutting-edge software design built atop a century of research in logic, language, and types.
 - title: Data science
-  details: Bayesian and machine learning techniques producing data-driven theories, answers, and predictions.
+  details: Bayesian statistics and machine learning techniques building data-driven theories, answers, and predictions.
 - title: Software Craft
   details: Building knowledge and the artifacts around it in the small and large, the short term and the long term.
 ---
