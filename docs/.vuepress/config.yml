@@ -1,0 +1,14 @@
+title: Well Conditioned
+description: Solving problems in the intersection of functional programming, statistics, and software craft.
+
+themeConfig:
+  search: false
+#  nav:
+#    - text: Home
+#      link: /
+#    - text: Contact
+#      link: /contact/
+
+markdown:
+  toc: 
+    includeLevel: [1, 2]

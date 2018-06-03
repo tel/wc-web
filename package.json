@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Static website for Well-Conditioned",
+  "main": "index.js",
+  "author": "Joseph Abrahamson",
+  "license": "All Rights Reserved",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^0.10.0"
+  },
+
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
