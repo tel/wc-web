@@ -5,12 +5,19 @@ ga: UA-120212012-1
 
 themeConfig:
   search: false
-#  nav:
-#    - text: Home
-#      link: /
-#    - text: Contact
-#      link: /contact/
+  nav:
+    - text: Home
+      link: /
+    - text: Talks
+      link: /talks/
+    - text: Contact
+      link: /contact/
 
 markdown:
+  lineNumbers: true
+  anchor:
+    permalink: true
+    permalinkSymbol: '§'
+    permalinkBefore: false
   toc: 
     includeLevel: [1, 2]

@@ -17,9 +17,3 @@ features:
 - title: Software Craft
   details: Building knowledge and the artifacts around it in the small and large, the short term and the long term.
 ---
-
-# Contact
-
-Reach out to us to learn more about how Well Conditioned brings these three concepts together to solve technological and business problems.
-
-<joseph@well-conditioned.com>
