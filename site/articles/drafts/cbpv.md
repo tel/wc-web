@@ -1,5 +1,5 @@
 ---
-title: The tension between computation and value
+title: The tension between values and computation
 lang: en-US
 meta:
   - name: description
@@ -8,7 +8,7 @@ meta:
     content: > 
 ---
 
-# The tension between computation and value
+# {{ $page.title }}
 
 Programming arises admist the tension between _values_ and _computation_,
 _data_ and _behavior_, _representation_ and _work_, _doing_ and _being_.
@@ -205,9 +205,9 @@ variables _are_ while computations _do_.
 One thing that you might ask is that if all values types have canonical forms
 then what is the canonical form of `A ~> B`? 
 
-And... that's a really good question that I'm just going to punt on. While some
-ways to answer it, my whole introduction of "pure" functions into this
-presentation is pretty much a hack.
+And... that's a really good question that I'm just going to punt on. While
+there are some ways to answer it, my whole introduction of "pure" functions
+into this presentation is pretty much a hack.
 
 </NoteBox>
 
@@ -344,6 +344,26 @@ In this sense, it's interesting that many Haskell practices have been adopted
 by Scala as opposed to more OCaml practices as it has a closer computational
 heritage. 
 
+## HTTP and REST
+
+And as a twist analysis, let's consider one of the most successful computation
+systems today. As is typical with distributed systems, the tension becomes
+incredibly straightforward as you cannot serialize computations, only concrete,
+finite values.
+
+While any HTTP endpoint is obviously a computation, opaque and analyzed by its
+responses to various input signals, the various data interchange languages like
+XML and JSON are obviously data. This is the typical case with interacting
+computations---it's easier to analyze them if we see them as communicating with
+observable, structural data.
+
+REST takes this a step further and constrains the computations to be largely
+about semi-transparent manipulation of known data. We expect various
+"endpoints" to have straightforward behavior with respect to manipulations of
+dependably available data. This is the sort of thing that brings data even more
+into the forefront of interacting with these systems and, e.g., compares
+interestingly with previous designs like RPC.
+
 ## Wrap up
 
 Programming arises admist the tension between _values_ and _computation_. Once
@@ -363,3 +383,7 @@ transcends fashions in programming practice or language design. The tension is
 not something that will go away so long as we endeavor to write interesting
 programs, so the various ways that languages handle it are worth understanding
 and contrasting.
+
+## References and further reading
+
+- ...
