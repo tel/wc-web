@@ -388,4 +388,7 @@ and contrasting.
 
 ## References and further reading
 
-- ...
+- http://noamz.org/papers/focbind.pdf
+- https://requestforlogic.blogspot.com/2011/08/embracing-and-extending-levy-language.html
+- https://phaazon.net/pub/on_understanding_data_abstraction.pdf
+- https://requestforlogic.blogspot.com/2012/03/what-does-focusing-tell-us-about.html
