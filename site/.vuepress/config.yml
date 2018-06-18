@@ -1,5 +1,5 @@
 title: Well Conditioned
-description: Solving problems in the intersection of functional programming, data science, and software craft.
+description: Solving problems in the intersection of computational theory, data science, and software craft.
 
 ga: UA-120212012-1
 
@@ -14,10 +14,10 @@ themeConfig:
       link: /contact/
 
 markdown:
-  lineNumbers: true
+  lineNumbers: false
   anchor:
     permalink: true
     permalinkSymbol: '§'
     permalinkBefore: false
   toc: 
-    includeLevel: [1, 2]
+    includeLevel: [2, 3]

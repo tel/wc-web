@@ -26,6 +26,8 @@ separation between computation and value. We'll also relate it to tensions that
 exist in other programming languages and note how they have attempted to
 "solve" these tensions using more precise language afforded by CBPV.
 
+[[toc]]
+
 ## Values and computation
 
 Values, or data, are concrete, materialized _things_ defined by how they are
