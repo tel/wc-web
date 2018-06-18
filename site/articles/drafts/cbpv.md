@@ -346,7 +346,7 @@ In this sense, it's interesting that many Haskell practices have been adopted
 by Scala as opposed to more OCaml practices as it has a closer computational
 heritage. 
 
-## HTTP and REST
+### HTTP and REST
 
 And as a twist analysis, let's consider one of the most successful computation
 systems today. As is typical with distributed systems, the tension becomes
