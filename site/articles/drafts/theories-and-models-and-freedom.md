@@ -18,7 +18,8 @@ same thing.
 
 More than this, the tension between theory and model is the critical tension of
 creative abstraction, generalization, and synthesis. Getting a good handle on
-this idea will cause echoes throughout your programming work.
+this idea can make some pieces of the nebulous, creative process of programming
+more tangible.
 
 [[toc]]
 
