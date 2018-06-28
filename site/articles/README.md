@@ -12,6 +12,9 @@ meta:
 Thoughts, techniques, reports, and updates from Well Conditioned.
 
 - [The tension between values and computation](./values-and-computation/)
+  discusses how a language can intensify the difference between static data and
+  dynamic computation to make one of the fundamental tensions of programming
+  more clear.
 
 <!--
 
