@@ -9,9 +9,11 @@
   "devDependencies": {
     "vuepress": "^0.10.0"
   },
-
   "scripts": {
     "site:dev": "vuepress dev site",
     "site:build": "vuepress build site"
+  },
+  "dependencies": {
+    "markdown-it-katex": "^2.0.3"
   }
 }
