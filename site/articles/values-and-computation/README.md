@@ -4,8 +4,15 @@ lang: en-US
 meta:
   - name: description
     content: >
+      Vital to all programming technique is the tension between static,
+      understandable data and dynamic, ever-moving computation. By exploring
+      the call-by-push-value calculus we can come to understand these two ideas
+      more completely.
   - name: keywords
     content: > 
+      data, computation, levy, paul blain levy, bauer, simmons, pretnar, java,
+      scala, http, rest, haskell, ocaml, sml, ml, plt, language theory, static,
+      dynamic, purity, effects, frank, do be do be do
 ---
 
 # {{ $page.title }}
@@ -386,9 +393,21 @@ not something that will go away so long as we endeavor to write interesting
 programs, so the various ways that languages handle it are worth understanding
 and contrasting.
 
+<ArticleMeta updated="2018 June 27" />
+
 ## References and further reading
 
-- http://noamz.org/papers/focbind.pdf
-- https://requestforlogic.blogspot.com/2011/08/embracing-and-extending-levy-language.html
-- https://phaazon.net/pub/on_understanding_data_abstraction.pdf
-- https://requestforlogic.blogspot.com/2012/03/what-does-focusing-tell-us-about.html
+- Licata, D. R., Zeilberger, N., & Harper, R. (2008). [_Focusing on binding and
+  computation_](http://noamz.org/papers/focbind.pdf). Proceedings - Symposium
+  on Logic in Computer Science, 241–252. https://doi.org/10.1109/LICS.2008.48
+- Rob Simmons has two blog posts which explore and extend Bauer and Pretnar's
+  [Levy language](http://plzoo.andrej.com/language/levy.html), an actual
+  implementation of CBPV
+  - [Embracing and extending the Levy
+    language](https://requestforlogic.blogspot.com/2011/08/embracing-and-extending-levy-language.html)
+  - [What does focusing tell us about language
+    design?](https://requestforlogic.blogspot.com/2012/03/what-does-focusing-tell-us-about.html)
+- Cook, W. R. (2009). [_On understanding data abstraction,
+  revisited._](https://phaazon.net/pub/on_understanding_data_abstraction.pdf)
+  ACM SIGPLAN Notices, 44, 557. https://doi.org/10.1145/1639949.1640133
+

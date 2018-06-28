@@ -8,6 +8,8 @@ themeConfig:
   nav:
     - text: Home
       link: /
+    - text: Articles
+      link: /articles/
     - text: Talks
       link: /talks/
     - text: Contact

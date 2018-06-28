@@ -11,6 +11,8 @@ meta:
 
 Thoughts, techniques, reports, and updates from Well Conditioned.
 
+- [The tension between values and computation](./values-and-computation/)
+
 <!--
 
 - Equality is hard (and also everything)
