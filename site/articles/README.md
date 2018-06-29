@@ -11,10 +11,15 @@ meta:
 
 Thoughts, techniques, reports, and updates from Well Conditioned.
 
-- [The tension between values and computation](./values-and-computation/)
+- [The tension between values and computation](./plt/values-and-computation/)
   discusses how a language can intensify the difference between static data and
   dynamic computation to make one of the fundamental tensions of programming
   more clear.
+
+- [Theories and moels](./plt/theories-and-models/) gives a toolkit for thinking
+  about abstraction in the form of _theories_ and _models_ and their interplay.
+  This article introduces this idea which shows up again and again and again in
+  mathematics, language design, and software craft.
 
 <!--
 
