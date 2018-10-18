@@ -16,7 +16,7 @@ Thoughts, techniques, reports, and updates from Well Conditioned.
   dynamic computation to make one of the fundamental tensions of programming
   more clear.
 
-- [Theories and moels](./plt/theories-and-models/) gives a toolkit for thinking
+- [Theories and models](./plt/theories-and-models/) gives a toolkit for thinking
   about abstraction in the form of _theories_ and _models_ and their interplay.
   This article introduces this idea which shows up again and again and again in
   mathematics, language design, and software craft.
